@@ -1,7 +1,7 @@
 $(document).ready(function() {
 /*splash*/
 	$('.login').hide();
-	$('.check, .verify, .register').hide();
+	$('.check, .verify, .register, .finish').hide();
 	setTimeout(function(){
 		$('#init-lift').fadeOut(500);
 		$('.login').show();
@@ -35,6 +35,15 @@ $(document).ready(function() {
 	$('.btn-icons2').click(function(){//volver al login
 		$('.verify').show();
 		$('.register').hide();
+	});
+	$('#btn-register').click(function(){//activar el boton que me muestre la siguiente pantalla
+		$('.verify, .register').hide();
+		$('.finish').show();
+	});
+
+	$('.btn-icons3').click(function(){//volver al login
+		$('.register').show();
+		$('.finish').hide();
 	});
 });
 

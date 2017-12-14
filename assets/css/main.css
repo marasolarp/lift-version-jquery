@@ -62,11 +62,14 @@ body{
 .btn-resend{
 	margin-bottom: 75%;
 }
-/*.btn-icons1{
-	border-radius: 50%;
-	margin-top: 8%;
+.finish{
+	background-image: url(../../assets/img/registrado.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
-.btn-icons2{
-  border-radius: 50%;
-  margin-top: 8%;
-}*/
