@@ -7,31 +7,66 @@ body{
 	background-image: url(../../assets/img/IMG-20171212-WA0035.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 70% 0;
+	background-position: center;
+	position:absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 /*pantalla inicial*/
 .login{
-	background-image: url(../../assets/img/img-auto.jpg);
+	background-image: url(../../assets/img/city-night-street-lights-1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 65% 0;
-	opacity: 0.6;
+	position:absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
-.signUp{
-  width: 10%;
-  margin-top: 10%;
-}
+.photo-lift{
+	width: 100%;
+}	
 .whitelogo{
 	width: 20%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
-.purpleLogo{
-  width: 10%;
-  margin-top: 40%;
+.login-buttons{
+  background-color:transparent;
+  color: #fff;
+  border:1px solid #fff;
+  font-weight: bold;
+} 
+.login-butons:hover{
+	color: hotpink;
 }
+.input-number{
+	padding: 5.8%;
+}
+.btn-next{
+	background-color: hotpink;
+	color: #fff;
+	width: 100%;  
+	border-radius: 0;
 
-.buttons{
-  margin-top: 40%;
-  margin-bottom: 20%;
 }
+.btn-icons, .btn-icons1, .btn-icons2 {
+	border-radius: 50%;
+	margin-top: 8%;
+}
+.text-singup{
+	text-align: center;
+}
+.btn-resend{
+	margin-bottom: 75%;
+}
+/*.btn-icons1{
+	border-radius: 50%;
+	margin-top: 8%;
+}
+.btn-icons2{
+  border-radius: 50%;
+  margin-top: 8%;
+}*/

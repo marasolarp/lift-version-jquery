@@ -27,31 +27,134 @@
 	<!--pantalla splash-->
 	<section id="init-lift">
 	</section>
-	<!--pantalla inicial-->
-	<section class=" container-fluid login">
+	<pantalla inicial home-pag>
+	<!--home page-->
+	<section class="login">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12">
+					<img class="whitelogo center-block" src="assets/img/logo-white.png" alt="">
+				</div>
+			</div>
+			<div class="row sigUp">
+				<div class="col-sm-12 col-xs-12">
+					<img class="photo-lift" src="assets/img/photo.png" alt="">
+				</div>	
+			</div>
+			<div class="row">
+      			<div class="col-xs-12 col-sm-12 buttons">
+        			<button type="button" class="col-xs-4 col-xs-offset-2 btn login-buttons">LOG 	IN</button>
+        			<button type="button" class="col-xs-4 col-xs-offset-1 btn login-buttons" id="sing-up">SING UP</button>
+      			</div>
+    		</div>
+  		</div>
+	</section>
+	<!--pantalla verificar-->
+	<section class="check">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 col-xs-2">
+					<button type="button" class="btn btn-default btn-icons">
+     				<span class="glyphicon glyphicon-menu-left btn-back"  aria-hidden="true"></span>
+    				</button>
+				</div>
+				<div class="col-sm-10 col-xs-10 text-center">
+					<h3>Sing Up</h3>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-xs-12">
+						<p class="page-header text-singup">Join now for free ride credit</p>
+					</div>
+				</div>	
+			</div>
+			<div class="row"> 
+				<div class="col-sm-12 col-xs-12">
+				    <div class="input-group">
+				      <div class="input-group-btn">
+				        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/chile_flags_flag_16984.png" alt=""><span class="caret"></span></button>
+				        <ul class="dropdown-menu">
+				          <li><a href="#"><img src="assets/img/united_states_flags_flag_17080.png" alt=""></a></li>
+				          <li><a href="#"><img src="assets/img/belgium_flags_flag_16976.png" alt=""></a></li>
+				          <li><a href="#"><img src="assets/img/brazil_flags_flag_16979.png" alt=""></a></li>
+				          <li><a href="#"><img src="assets/img/mexico_flags_flag_17036.png"></a></li>
+				        </ul>
+				      </div>
+				      <input type="text" class="form-control input-number center-block" aria-label="..." value="+56">
+				    </div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-sm-12 col-xs-12 ">
+						<p class="text-singup">We'll send text to verify your phone</p>
+			  		</div>	
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-sm-12 col-xs-12">
+						<button type="button" class="btn btn-next" id="btn-near">
+     					Next
+    					</button>
+			  		</div>	
+			  	</div>
+			</div>
+		</div>	
+	</section>
+	<!--section verify-->
+	<section class="verify">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<img class="whitelogo" src="assets/img/logo-white.png" alt="">
+					<button type="button" class="btn btn-default btn-verify btn-icons1">
+     				<span class="glyphicon glyphicon-menu-left"  aria-hidden="true"></span>
+    				</button>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 text-center">
+					<h3>Verify phone number</h3>
+					<p class="page-header">Join now for free ride credit</p>
 				</div>
 			</div>
-		</div>
-		<div class="container-fluid signUp">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 text-center">
+					<h4>LAB-_ _ _</h4>
+					<p>Enter the code send to +52</p>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 text-center">
+					<buutton type="button" class="btn btn-default btn-resend" >
+     				Resend Code
+    				</button>
+				</div>
+			</div>	
+			<div class="row">
+			  <div class="col-sm-12 col-xs-12">
+				  <button type="button" class="btn btn-next" id="btn-verify">
+     			NEXT
+    		  </button>
+			  </div>	
+		  </div>
+    </div>		
+	</section>
+  <!--section register-->
+	<section class="register">
+		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<img class="purpleLogo" src="assets/img/Lyft_logo_purple.png" alt="">
-				</div>	
+					<button type="button" class="btn btn-default btn-icons2">
+     				<span class="glyphicon glyphicon-menu-left"  aria-hidden="true"></span>
+    				</button>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 text-center">
+					<h3>Sign up</h3>
+					<p class="page-header">Join now for free ride credit</p>
+				</div>
 			</div>
-		</div>		
-		<div class="row">
-      <div class="col-xs-12 col-sm-12 buttons">
-        <button type="button" class="col-xs-4 col-xs-offset-2 btn btn-default logIn-button">LOG IN</button>
-        <button type="button" class="col-xs-4 col-xs-offset-1 btn btn-default signUp-button">SING UP</button>
-      </div>
-    </div>
-  </div>
 		
 	</section>
+
+	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
